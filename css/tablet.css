@@ -1,0 +1,26 @@
+@media (max-width: 992px) {
+  .hide {
+    display: none;
+  }
+
+  .background {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cert-image {
+    width: 100%;
+  }
+
+  .grid-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .grid-layout {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .outline {
+    outline: none;
+  }
+
+  .nav-padding {
+    padding: 5px 20px;
+  }
+
+  .background {
+    grid-template-columns: 1fr;
+  }
+
+  .award {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .cert-image {
+    width: 100%;
+  }
+
+  .add-border-left {
+    border-left: none;
+    border-bottom: #cbad65 solid 2px;
+  }
+
+  .project {
+    grid-template-columns: 1fr;
+  }
+
+  .project-time {
+    grid-template-columns: 1fr;
+    justify-content: start;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+}
